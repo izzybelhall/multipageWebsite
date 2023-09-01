@@ -1,0 +1,70 @@
+.navbar {
+    background-color: rgb(153, 208, 161);
+    text-align: center;
+}
+a:hover{
+    color:rgb(211, 32, 169) ;
+}
+a:active{
+    color:brown
+}
+html {height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(#e66465, #9198e5);
+}
+h1 {
+    text-align:center;
+    color: bisque;
+    font-family:fantasy
+}
+#homeText{
+    text-align: center;
+    color: rgb(116, 226, 226);
+    text-shadow: 2px 2px 8px black;
+    font-size: large;
+}
+#dogImg{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: groove;
+   border-color: aqua;
+}
+.aboutInfo{
+    position: relative;
+    text-align: center;
+}
+#aboutText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    border: none;
+    margin: auto;
+    color: antiquewhite;
+    font-size: 100px;
+    background-color: rgb(67, 61, 61);
+    border-style: dashed;
+    border-color: rgb(34, 123, 123);
+}
+button:hover{
+    color: black;
+    background-color: antiquewhite;
+    border-style: dashed;
+    border-color: rgb(37, 158, 83);
+}
+button:active{
+    color: rgb(203, 206, 127);
+    background-color: rgb(169, 83, 83);
+
+}
