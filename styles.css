@@ -47,8 +47,6 @@ h1 {
 }
 button{
     display: block;
-    align-content: center;
-    justify-content: center;
     border: none;
     margin: auto;
     color: antiquewhite;
